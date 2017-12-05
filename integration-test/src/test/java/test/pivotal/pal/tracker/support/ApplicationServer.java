@@ -39,6 +39,7 @@ public class ApplicationServer {
                 .put("SPRING_DATASOURCE_URL", dbUrl)
                 .put("REGISTRATION_SERVER_ENDPOINT", "http://registration-server")
                 .put("APPLICATION_OAUTH_ENABLED", "false")
+                .put("SPRING_ZIPKIN_ENABLED", "false")
                 .build()
         );
     }
